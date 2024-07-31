@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.svg{
+    display: flex;
+    justify-content: space-around;
+}
+
+.svg-item{
+    width:20px;
+    
+}
+
+#torre-svg{
+    width: 83px;
+}
+
+#reina-svg{
+    width: 95px;
+}
+
+#cab-svg{
+    width: 83px;
+
+}
+
+#rey-svg{
+    width: 84px;
+}
+
+.svg-item{
+    width:60px;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 8px 16px;
+}
+
+.lista{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.lista a{
+   
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    
+
+}
+.lista a:hover{
+    background-color: white;
+    color: #333;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 16px;
+    font-size: 64px;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+
+.mov-peon, .mov-alfil, .mov-caballo, .mov-reina, .mov-rey, .mov-torre{
+    border: outset;
+    border-radius: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    height: 250px;
+    
+    
+}
+
+.titulo-mov-peon, .titulo-mov-caballo, .titulo-mov-alfil, .titulo-mov-torre, .titulo-mov-reina, .titulo-mov-rey{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    background-color: darkgray;
+    margin-left: 10px;
+}
+
+.parrafo-mov-peon,.parrafo-mov-caballo, .parrafo-mov-alfil, .parrafo-mov-torre, .parrafo-mov-reina, .parrafo-mov-rey{
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size:large;
+}
+
+.titulo-cap-peon, .titulo-cap-caballo, .titulo-cap-alfil, .titulo-cap-torre, .titulo-cap-reina, .titulo-cap-reina, .titulo-cap-rey{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    background-color: darkgray;
+    margin-left: 10px;
+
+}
+
+.parrafo-cap-peon, .parrafo-cap-caballo, .parrafo-cap-alfil, .parrafo-cap-torre, .parrafo-cap-reina, .parrafo-cap-rey{
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size:large;
+}
+
+.mov-peon img, .mov-caballo img, .mov-alfil img, .mov-torre img, .mov-reina img, .mov-rey img{
+    width: 160px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    font-size: medium;
+    padding: 30px;
+    text-align: center;
+}

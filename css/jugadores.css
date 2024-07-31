@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.svg{
+    display: flex;
+    justify-content: space-around;
+}
+
+#torre-svg{
+    width: 83px;
+}
+
+#reina-svg{
+    width: 95px;
+}
+
+#cab-svg{
+    width: 83px;
+
+}
+
+#rey-svg{
+    width: 84px;
+}
+
+
+.svg-item{
+    width:60px;
+    
+}
+main{
+    background: rgb(232,231,240);
+    background: linear-gradient(177deg, rgba(232,231,240,1) 0%, rgba(9,9,121,0.25253851540616246) 64%, rgba(0,212,255,1) 100%);
+      
+}
+
+body{
+    font-style: ubuntu;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 8px 16px;
+}
+
+.lista{
+    color: white;
+    
+    text-decoration: none;
+    
+
+}
+
+.lista a{
+   
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    
+
+}
+.lista a:hover{
+    background-color: white;
+    color: #333;
+}
+
+h1, h3{
+    text-align: center;
+    color: #333;
+    margin-bottom: 16px;
+    font-size: 64px;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+.jugadores{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    margin-left: 150px;
+    
+}
+
+img{
+    width: 180px;
+}
+.lista-jug{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+#radio1, #radio2{
+    width: 50px;
+}
+.formulario input{
+    width: 500px;
+    margin-bottom: 10px;
+    
+}
+.formulario textarea{
+    height: 50px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.genero{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
+button{
+    width: 100px;
+    padding: 15px;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+
+#btn-reset{
+    background-color: red;
+}
+
+#btn-enviar{
+    background-color: #887f7f;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    font-size: medium;
+    padding: 30px;
+    text-align: center;
+}
