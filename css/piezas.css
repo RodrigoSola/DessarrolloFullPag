@@ -98,9 +98,14 @@ background: linear-gradient(177deg, rgba(232,231,240,1) 0%, rgba(9,9,121,0.25253
 
 }
 
-.img-peon, .img-torre, .img-reina, .img-rey{
-    width: 130px;
-}
+.img-peon{
+    
+        height: 172px;
+    
+   
+        max-width: 194px;
+    }
+
 
 .titulo-peon, .titulo-alfil, .titulo-caballo, .titulo-torre, .titulo-reina, .titulo-rey, .titulo-tablero{
     font-family: Arial, Helvetica, sans-serif;
@@ -120,19 +125,30 @@ background: linear-gradient(177deg, rgba(232,231,240,1) 0%, rgba(9,9,121,0.25253
 }
 
 .img-alfil{
-    width: 250px;
-    height: 200px;
+    width: 185px;
+    height: 177px;
     background-color: rgb(53, 94, 94);
 }
 
 .img-caballo{
-    width: 150px;
-    height: 195px;
+    width: 169px;
+    height: 180px;
 }
-.img-tablero{
-    width: 250px;
+.img-tablero {
+    width: 170px;
 }
-
+.img-torre{
+    height: 181px;
+    width: 180px;
+}
+.img-reina{
+    height: 184px;
+    width: 168px;
+}
+.img-rey{
+    width: 156px;
+    height: 180px;
+}
 footer{
     background-color: #333;
     color: white;

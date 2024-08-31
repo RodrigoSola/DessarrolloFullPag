@@ -8,13 +8,6 @@
     justify-content: space-around;
 }
 
-
-
-.svg-item{
-    width:60px;
-    
-}
-
 #torre-svg{
     width: 83px;
 }
@@ -30,6 +23,11 @@
 
 #rey-svg{
     width: 84px;
+}
+
+.svg-item{
+    width:60px;
+    
 }
 
 body{
@@ -53,14 +51,13 @@ nav ul{
 
 }
 
-.lista a{
-   
+
+
+.lista a {
     text-decoration: none;
     color: white;
-    font-weight: 700;
-    font-size: 30px;
-    
-
+    font-weight: 400;
+    font-size: 13px;
 }
 .lista a:hover{
     background-color: white;
@@ -71,7 +68,7 @@ h1{
     text-align: center;
     color: #333;
     margin-bottom: 16px;
-    font-size: 64px;
+    font-size: 50px;
     font-weight: bold;
     text-decoration: underline;
 
@@ -99,13 +96,16 @@ p{
     margin: 30px;
 }
 
+
+
+
 footer{
     background-color: #333;
     color: white;
     font-size: medium;
-    padding: 30px;
+    padding: 16px;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
 }
 footer a{
     text-decoration: none;
@@ -113,10 +113,24 @@ footer a{
 }
 
 
-@media (max-width: 360px) {
+@media (min-width: 920px){
     .svg{
-    width: 355px;
-    height: 45px;
+        display: flex;
+        justify-content: space-around;
     }
-    
+    .lista a{
+   
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 30px; 
+    }
+    h1{
+        font-size: 64px; 
+    }
+    footer{
+      
+        padding: 30px;
+        font-size: 20px;
+    }
 }
